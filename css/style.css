@@ -1,0 +1,181 @@
+/*CSS GENERAL DE ELEMENTOS*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(#041B30,#020E14);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+
+}
+section{
+    padding: 10px 45px 10px 45px;
+}
+h2{
+    font-size: 36px;
+    line-height: 36px;
+    margin-top: 15px;
+}
+h3{
+    color: white;
+    font-size: 18px;
+    font-weight:300 ;
+}
+p{
+    text-align: justify;
+}
+i{
+    font-size: 25px;
+
+}
+i:hover{
+    color: #ffc900;
+}
+li{
+    float: left;
+    margin-right: 20px;
+    list-style: none;
+}
+a{
+    color:#999 ;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    display:inline-block;
+}
+nav{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    padding-top: 5px;
+}
+nav ul{
+    display: inline-block;
+}
+nav ul li{
+    padding-top: 0px; 
+}
+nav ul li a{
+    text-decoration: none;
+    color: white; 
+}
+a:hover{
+    color: #ffc900;
+}
+/*-----------------------------------------------------------------------------------*/
+/*CSS CLASES Y IDS*/
+.hastag{
+    color: #ffc900;
+    margin-top: 5px;
+   
+}
+#inicio{
+    
+    background-image: url(../imagenes/banner.png);
+    min-height: 280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1.5px solid #ffc900;
+    padding-top: 95px;
+}
+
+#skills{
+    border-top: 1.5px solid #ffc900;
+    border-bottom: 1.5px solid #ffc900;
+}
+#redes{
+    list-style: none;
+    margin-top: 40px;
+}
+#logo{
+    width: 50px;
+}
+.menu{
+    background: linear-gradient(#020E14, #041B30);
+}
+.menu2{
+    border-top: 0.5px solid #ffc900;
+    border-bottom: 0.5px solid #ffc900; padding-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+/*Card portfolio*/
+.filaSobreMi{
+    display: flex;
+    gap: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.filaSkills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between ;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.card{
+    margin-top: 15px;
+    width: 250px;
+    border-radius: 15px;
+    border:0.5px solid #ffc900 ;
+}
+.card h3{
+    color: #ffc900;
+}
+.card h4{
+    margin:0 5px 5px 0;
+}
+.card h3,.card h4,.card p,.card .masinfo{
+    padding: 0 15px;
+}
+.card .sep{
+    margin: 0 5px 5px 0;
+    border: 1px solid #ffc900;
+}
+.card img{
+    border-radius: 15px 15px 0 0 ;
+}
+#foto{
+    border-radius: 15px;
+    border: 1px solid #ffc900;
+}
+#skills h4{
+    color: #999;
+}
+/*Formulario*/
+.itemform{
+    display: grid;  
+    grid-template-columns: 150px 350px;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+#boton{
+    justify-content: end;
+    margin-right: 27px;
+    text-decoration: none;
+}
+.itemform label{
+    font-weight: 500;
+}
+#formulario{
+    margin-top: 25px;
+}
+.itemform input, .itemform textarea{
+    border-radius: 5px;
+    border: 0.5px solid #ffc900;
+}
+.itemform [type="submit"]{
+    background-color: #ffc900;
+    color: #041B30;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px ;
+}
+#contacto h3{
+    color: #999
+}
+
